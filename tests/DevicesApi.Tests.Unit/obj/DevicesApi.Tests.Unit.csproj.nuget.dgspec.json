@@ -1,0 +1,222 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Unit/DevicesApi.Tests.Unit.csproj": {}
+  },
+  "projects": {
+    "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/DevicesApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/DevicesApi.Application.csproj",
+        "projectName": "DevicesApi.Application",
+        "projectPath": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/DevicesApi.Application.csproj",
+        "packagesPath": "/Users/ricardomartins/.nuget/packages/",
+        "outputPath": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ricardomartins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/DevicesApi.Domain.csproj": {
+                "projectPath": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/DevicesApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.312/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/DevicesApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/DevicesApi.Domain.csproj",
+        "projectName": "DevicesApi.Domain",
+        "projectPath": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/DevicesApi.Domain.csproj",
+        "packagesPath": "/Users/ricardomartins/.nuget/packages/",
+        "outputPath": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ricardomartins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.312/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Unit/DevicesApi.Tests.Unit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Unit/DevicesApi.Tests.Unit.csproj",
+        "projectName": "DevicesApi.Tests.Unit",
+        "projectPath": "/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Unit/DevicesApi.Tests.Unit.csproj",
+        "packagesPath": "/Users/ricardomartins/.nuget/packages/",
+        "outputPath": "/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Unit/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ricardomartins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/DevicesApi.Application.csproj": {
+                "projectPath": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/DevicesApi.Application.csproj"
+              },
+              "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/DevicesApi.Domain.csproj": {
+                "projectPath": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/DevicesApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.8.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.312/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
