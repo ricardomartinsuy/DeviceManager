@@ -33,6 +33,43 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "DevicesApi.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "DevicesApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevicesApi.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevicesApi.Application.dll": {}
+        }
+      },
+      "DevicesApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/DevicesApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevicesApi.Domain.dll": {}
+        }
+      },
+      "DevicesApi.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "DevicesApi.Application": "1.0.0",
+          "DevicesApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevicesApi.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevicesApi.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -67,10 +104,27 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "DevicesApi.Application/1.0.0": {
+      "type": "project",
+      "path": "../DevicesApi.Application/DevicesApi.Application.csproj",
+      "msbuildProject": "../DevicesApi.Application/DevicesApi.Application.csproj"
+    },
+    "DevicesApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DevicesApi.Domain/DevicesApi.Domain.csproj",
+      "msbuildProject": "../DevicesApi.Domain/DevicesApi.Domain.csproj"
+    },
+    "DevicesApi.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../DevicesApi.Infrastructure/DevicesApi.Infrastructure.csproj",
+      "msbuildProject": "../DevicesApi.Infrastructure/DevicesApi.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "DevicesApi.Application >= 1.0.0",
+      "DevicesApi.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.14"
     ]
   },
@@ -98,7 +152,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/DevicesApi.Application.csproj": {
+              "projectPath": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/DevicesApi.Application.csproj"
+            },
+            "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Infrastructure/DevicesApi.Infrastructure.csproj": {
+              "projectPath": "/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Infrastructure/DevicesApi.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

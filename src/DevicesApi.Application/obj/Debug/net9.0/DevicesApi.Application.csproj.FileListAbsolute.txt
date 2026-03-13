@@ -1,0 +1,16 @@
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/bin/Debug/net9.0/DevicesApi.Application.deps.json
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/bin/Debug/net9.0/DevicesApi.Application.dll
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/bin/Debug/net9.0/DevicesApi.Application.pdb
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/bin/Debug/net9.0/DevicesApi.Domain.dll
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/bin/Debug/net9.0/DevicesApi.Domain.pdb
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/DevicesApi.Application.csproj.AssemblyReference.cache
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/DevicesApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/DevicesApi.Application.AssemblyInfoInputs.cache
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/DevicesApi.Application.AssemblyInfo.cs
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/DevicesApi.Application.csproj.CoreCompileInputs.cache
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/DevicesApi.Application.sourcelink.json
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/DevicesA.5838FF91.Up2Date
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/DevicesApi.Application.dll
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/refint/DevicesApi.Application.dll
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/DevicesApi.Application.pdb
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Application/obj/Debug/net9.0/ref/DevicesApi.Application.dll

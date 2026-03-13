@@ -1,0 +1,12 @@
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/bin/Debug/net9.0/DevicesApi.Domain.deps.json
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/bin/Debug/net9.0/DevicesApi.Domain.dll
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/bin/Debug/net9.0/DevicesApi.Domain.pdb
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/Debug/net9.0/DevicesApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/Debug/net9.0/DevicesApi.Domain.AssemblyInfoInputs.cache
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/Debug/net9.0/DevicesApi.Domain.AssemblyInfo.cs
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/Debug/net9.0/DevicesApi.Domain.csproj.CoreCompileInputs.cache
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/Debug/net9.0/DevicesApi.Domain.sourcelink.json
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/Debug/net9.0/DevicesApi.Domain.dll
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/Debug/net9.0/refint/DevicesApi.Domain.dll
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/Debug/net9.0/DevicesApi.Domain.pdb
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Domain/obj/Debug/net9.0/ref/DevicesApi.Domain.dll
