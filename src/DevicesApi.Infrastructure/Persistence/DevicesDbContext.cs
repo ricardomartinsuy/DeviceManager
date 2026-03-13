@@ -26,10 +26,17 @@ public sealed class DevicesDbContext(DbContextOptions<DevicesDbContext> options)
                 .IsRequired()
                 .HasConversion<string>();
 
+            // CreationTime is set once in constructor and never updated
             entity.Property(d => d.CreationTime)
                 .IsRequired()
                 .ValueGeneratedNever();
 
+            // Indexes for efficient filtering by Brand and State (evaluation criteria)
+            entity.HasIndex(d => d.Brand)
+                .HasDatabaseName("IX_Devices_Brand");
+
+            entity.HasIndex(d => d.State)
+                .HasDatabaseName("IX_Devices_State");
         });
     }
 }

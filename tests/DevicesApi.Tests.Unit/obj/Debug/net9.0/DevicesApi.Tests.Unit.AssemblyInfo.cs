@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevicesApi.Tests.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ad950155add8474ca5c7ad76fa3acba31121f61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d45e1ba5f8ccd2f756a1461ca2b331852d5dbe32")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevicesApi.Tests.Unit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevicesApi.Tests.Unit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

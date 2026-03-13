@@ -16,3 +16,5 @@
 /Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Infrastructure/obj/Debug/net9.0/refint/DevicesApi.Infrastructure.dll
 /Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Infrastructure/obj/Debug/net9.0/DevicesApi.Infrastructure.pdb
 /Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Infrastructure/obj/Debug/net9.0/ref/DevicesApi.Infrastructure.dll
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Infrastructure/bin/Debug/net9.0/DevicesApi.Infrastructure.runtimeconfig.json
+/Users/ricardomartins/Documents/DeviceManager/src/DevicesApi.Infrastructure/obj/Debug/net9.0/DevicesApi.Infrastructure.genruntimeconfig.cache

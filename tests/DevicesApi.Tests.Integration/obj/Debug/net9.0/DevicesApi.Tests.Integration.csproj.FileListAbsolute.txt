@@ -122,3 +122,17 @@
 /Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/obj/Debug/net9.0/DevicesApi.Tests.Integration.pdb
 /Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/obj/Debug/net9.0/DevicesApi.Tests.Integration.genruntimeconfig.cache
 /Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/obj/Debug/net9.0/ref/DevicesApi.Tests.Integration.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Npgsql.dll
+/Users/ricardomartins/Documents/DeviceManager/tests/DevicesApi.Tests.Integration/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

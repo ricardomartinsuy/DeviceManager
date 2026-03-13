@@ -1,0 +1,60 @@
+## .NET Build Artifacts
+bin/
+obj/
+out/
+
+## NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.nuget/
+
+## Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## JetBrains Rider
+*.sln.iml
+
+## VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Test Results & Coverage
+TestResults/
+coverage/
+*.trx
+*.coveragexml
+*.coverage
+
+## Publish
+publish/
+**/Properties/PublishProfiles/
+
+## Docker
+docker-compose.override.yml
+
+## Secrets & Environment
+*.env
+.env
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Logs
+*.log
+logs/
