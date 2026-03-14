@@ -1,0 +1,38 @@
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: devices_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: devices_db
+      POSTGRES_USER: devices_user
+      POSTGRES_PASSWORD: devices_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U devices_user -d devices_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: devices_api
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__DefaultConnection: >
+        Host=db;Port=5432;Database=devices_db;
+        Username=devices_user;Password=devices_pass
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

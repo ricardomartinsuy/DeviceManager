@@ -67,11 +67,9 @@ try
 
     app.UseSerilogRequestLogging();
 
-    if (app.Environment.IsDevelopment())
-    {
-        app.UseSwagger();
-        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Devices API v1"));
-    }
+    // ── Swagger always enabled (useful for demos and evaluation) ─────────────
+    app.UseSwagger();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Devices API v1"));
 
     app.UseHttpsRedirection();
     app.MapControllers();
